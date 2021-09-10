@@ -1,1 +1,153 @@
 @import url(reset.css);
+@import url(border.css);
+
+html {
+  font-family: "Playfair Display", serif;
+  font-size: 62.5%;
+  color: #48504e;
+  background: #ffc107 url(../assets/background.jpg) fixed no-repeat;
+  background-size: contain;
+}
+
+.orange {
+  color: #ffc107;
+}
+
+.grey {
+  color: #48504e;
+}
+
+.lightGrey {
+  color: #d4d4d3;
+}
+
+hgroup {
+  margin-left: -25%;
+  position: relative;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 3.7rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 3.5rem;
+  margin: 4rem;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 2.7rem;
+}
+
+h3 {
+  font-size: 3.1rem;
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+}
+
+h2,
+h3 {
+  color: #fff;
+  background-color: #48504e;
+  padding: 1.5rem;
+  display: inline-block;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+ul {
+  font-size: 2.3rem;
+  line-height: 1.7;
+}
+
+footer p {
+  font-size: 1.4rem;
+  color: #d4d4d3;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.summary {
+  font-size: 2.4rem;
+  font-style: italic;
+}
+
+.dot {
+  background-color: #48504e;
+  width: 1rem;
+  height: 1rem;
+  margin: 3rem auto;
+  border-radius: 50%;
+}
+
+.deleted {
+  text-decoration: line-through;
+}
+
+header {
+  display: none;
+}
+
+.buttonMore {
+  display: inline-block;
+  border: 0.1rem dashed #48504e;
+  text-decoration: none;
+  color: #48504e;
+  font-size: 3rem;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  right: 0;
+}
+
+.menu {
+  background: #FFF url(../assets/menu.svg) center no-repeat;
+  padding: 1rem;
+  height: 3.2rem;
+  width: 3.2rem ;
+  margin: 1rem;
+  position: fixed;
+  right: 0;
+  z-index: 3;
+}
+
+section {
+  width: 50%;
+  min-width: 600px;
+  max-width: 850px;
+  position: absolute;
+  right: 5%;
+}
+
+article {
+    margin-bottom: 6rem;
+}
+
+figure {
+  margin-left: -25%;
+  margin-top: 20%;
+  float: left;
+}
+
+.text {
+  padding-top: 4rem;
+  column-count: 2;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    background: #FFF;
+    z-index: 2;
+}
