@@ -105,10 +105,15 @@ header {
     display: none;
   background: #48504e;
   color: #fff;
-  height: 30rem;
-  padding: 10rem;
+  height: 40rem;
+  padding: 5rem;
 
 }
+
+.formContainer {
+  float: left
+}
+
 nav {
     float: right;
 }
@@ -119,6 +124,13 @@ nav li {
     padding-right: 4rem;
     line-height: 1.5rem;
     margin: 3rem;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+nav a:hover {
+  color: #ffc107;
 }
 
 form {
